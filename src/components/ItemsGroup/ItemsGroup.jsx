@@ -2,7 +2,7 @@ import './ItemsGroup.scss'
 import Item from '../Item/Item'
 
 const ItemsGroup = ({items}) => {
-  console.log(items, "<<<<from items group")
+  // console.log(items, "<<<<from items group")
   return (
     <div className='items-group'>
     {items.map((x) => {
